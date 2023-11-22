@@ -78,7 +78,7 @@ model.compile(
     metrics=['accuracy'])
 history = model.fit(X_train, Y_train, epochs=7, validation_split=0.2)
 
-#V
+#Visualise
 import matplotlib.pyplot as plt
 
 plt.figure(figsize = (4,4))
